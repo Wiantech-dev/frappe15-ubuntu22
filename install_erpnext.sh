@@ -35,7 +35,7 @@ echo "Installing MariaDB..."
 sudo apt install -y mariadb-server mariadb-client
 sudo mysql_secure_installation <<EOF
 Y
-your_mysql_root_password
+kiaanerp@32!
 Y
 Y
 N
@@ -83,7 +83,7 @@ chmod -R o+rx /home/$USER
 
 # Create a New Site
 echo "Creating a new site for ERPNext..."
-bench new-site erp.example.com --admin-password admin_password --mariadb-root-password your_mysql_root_password
+bench new-site erp.example.com --admin-password kiaanadm@32! --mariadb-root-password kiaanerp@32!
 
 # Install ERPNext and Other Apps
 echo "Installing ERPNext app..."
