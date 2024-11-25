@@ -88,7 +88,7 @@ bench new-site erp.example.com --admin-password admin_password --mariadb-root-pa
 # Install ERPNext and Other Apps
 echo "Installing ERPNext app..."
 bench get-app --branch version-15 erpnext
-bench --site erp.example.com install-app erpnext
+bench --site kiaanerp.technowitty.in install-app erpnext
 
 USER_SETUP
 
