@@ -5,12 +5,12 @@ echo "Updating and upgrading system packages..."
 sudo apt update && sudo apt upgrade -y
 
 # Create a New User (Bench User)
-read -p "Enter username for bench user (e.g., frappe): " BENCH_USER
-sudo adduser --gecos "" $BENCH_USER
-sudo usermod -aG sudo $BENCH_USER
+#read -p "Enter username for bench user (e.g., frappe): " BENCH_USER
+#sudo adduser --gecos "" $BENCH_USER
+#sudo usermod -aG sudo $BENCH_USER
 
 # Switch to the Bench User
-sudo su - $BENCH_USER <<'USER_SETUP'
+#sudo su - $BENCH_USER <<'USER_SETUP'
 
 # Install Required Packages
 echo "Installing required packages..."
